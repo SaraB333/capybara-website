@@ -36,6 +36,9 @@ header a {
     color: #37230d;
     text-transform: uppercase;
 }
+#title {
+    font-size: 150%;
+}
 
 nav {
     background-color: rgba(201, 170, 146, 0.8);
@@ -72,11 +75,35 @@ nav ul {
 main {
     background-color: red;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 105px;
 }
 
 /* Footer */
 footer {
     background-color: blue;
     width: 100%;
+}
+
+/* Media Query: Tablets and larger (768px and up) */
+@media screen and (min-width:768px) {
+    /* Header */
+
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav ul li {
+        padding: 20px;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
