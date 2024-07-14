@@ -100,6 +100,10 @@ footer img {
     justify-content: space-evenly;
 }
 
+#footer-background {
+    background: url(../images/footer-img.png) no-repeat center center/cover;
+}
+
 /* Media Query: Tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
     /* Header */
