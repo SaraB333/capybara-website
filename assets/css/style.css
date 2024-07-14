@@ -68,7 +68,7 @@ nav ul {
     display: none;
 }
 .nav-toggle-label {
-    font-size: 150%;
+    font-size: 200%;
 }
 
 /* Main Content */
@@ -80,8 +80,24 @@ main {
 
 /* Footer */
 footer {
-    background-color: blue;
+    background-color: #C9AA92;
+    color: #37230d;
     width: 100%;
+    text-align: left;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer img {    
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#footer-imgs {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* Media Query: Tablets and larger (768px and up) */
@@ -105,5 +121,11 @@ footer {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    /* Footer */
+    footer img {    
+        max-width: 150px;
+        max-height: 150px;
     }
 }

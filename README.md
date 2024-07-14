@@ -43,7 +43,8 @@ In this section, you should go over the different parts of your project, and des
 
 - __The Footer__ 
 
-
+- The footer section includes links to every website used when collecting reliable information for this site. These will open the pages in new tabs to allow easy navigation for the user. 
+- The footer is valuable to the user as it allows them to easily verify the information on the page to be factually correct.
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
@@ -110,6 +111,9 @@ Favicon from url(https://www.flaticon.com/free-icons/capybara)
 Copied from the Love Running project in style.css
 >"/* Asterisk wildcard selector to override default styles added by the browser */"
 >"* { padding: 0; margin: 0; box-sizing: border-box; }"
+
+- The photo's used for the logos in the footer are from [National Geographic](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com.au%2Fpin%2F33636328450640096%2F&psig=AOvVaw3axKheHPHhvQy-WBgatVsR&ust=1720644634948000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCf-sj_mocDFQAAAAAdAAAAABAE), [World Wildlife Foundation](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWorld_Wide_Fund_for_Nature&psig=AOvVaw350eJ6qoyQRRRIy8sC8UW2&ust=1720650180708000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjMjuH_mocDFQAAAAAdAAAAABAE) and [Rainforest Alliance](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rainforest-alliance.org%2Fbusiness%2Fmarketing-sustainability%2Fusing-our-logo-and-seal%2F&psig=AOvVaw2ap1sc9heM3PNhFk0y7JtH&ust=1720645412332000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJiogfL_mocDFQAAAAAdAAAAABAE)
+
 
 ### Content 
 
