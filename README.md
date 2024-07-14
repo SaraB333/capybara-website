@@ -3,7 +3,7 @@ ctrl-c - clears the terminal if frozen
 
 # Capybara
 
-Capybara is a website designed to give factual information to users in a fun format, all about Capybaras. This animal has become wildly popular, so for anyone looking to learn some fun tidbits this site will be a good place to come. 
+Capybara is a website designed to give factual information to users in a fun format, all about Capybaras. This animal has become wildly popular, so for anyone looking to learn some fun tidbits this site will be a good place to come. There will also be a page where people can share their thoughts about the website or capybara's in general.
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
@@ -43,7 +43,7 @@ In this section, you should go over the different parts of your project, and des
 
 - __The Footer__ 
 
- 
+
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
