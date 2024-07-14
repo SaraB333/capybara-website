@@ -35,6 +35,7 @@ header a {
     text-decoration: none;
     color: #37230d;
     text-transform: uppercase;
+    margin: 10px 10px;
 }
 #title {
     font-size: 150%;
@@ -69,13 +70,14 @@ nav ul {
 }
 .nav-toggle-label {
     font-size: 200%;
+    margin: 10px 10px;
 }
 
 /* Main Content */
 main {
     width: 100%;
     height: 100vh;
-    margin-top: 105px;
+    margin-top: 125px;
 }
 
 #main-page {
@@ -84,8 +86,8 @@ main {
 
 /* Footer */
 footer {
-    background-color: #C9AA92;
-    color: #37230d;
+    background-color: rgba(201, 170, 146, 0.8);
+    color: #eee7e7;
     width: 100%;
     text-align: left;
 }
