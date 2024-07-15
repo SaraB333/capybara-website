@@ -90,6 +90,7 @@ main {
     background-color: #37230d;
     color: #eee7e7;
     height: fit-content;
+    min-height: 100vh;
 }
 
 main h1 {
@@ -120,7 +121,7 @@ main h1 {
     width: fit-content;
     margin: 20px 15px;
     padding: 5px 5px;
-    max-width: 80%;
+    max-width: 70%;
     font-size: 120%;
     letter-spacing: 2px;
 }
@@ -133,7 +134,7 @@ main h1 {
     width: fit-content;
     margin: 20px 15px;
     padding: 5px 5px;
-    max-width: 80%;
+    max-width: 70%;
     font-size: 120%;
     letter-spacing: 2px;
 }
@@ -146,9 +147,6 @@ footer {
     text-align: left;
     border-top: 2px solid #37230d;
     position: relative;
-    z-index: 99;
-    bottom: 0;
-    left: 0;
 }
 
 footer li {
@@ -193,6 +191,13 @@ footer img {
         display: none;
     }
 
+    /* Main Content */
+
+    #fun-fact-two {
+        align-self: flex-end;
+        float: right;
+    }
+
     /* Footer */
     footer img {
         max-width: 150px;
@@ -208,7 +213,18 @@ footer img {
 @media screen and (min-width:1240px) {
 
     /* Main Content */
+    main {
+        margin-bottom: 147px;
+    }
     #main-page {
         background: url(../images/main-page-img.webp) no-repeat center center/cover;
+    }
+
+    /* Footer */
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
     }
 }
