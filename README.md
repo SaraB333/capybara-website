@@ -105,14 +105,22 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
-Favicon from url(https://www.flaticon.com/free-icons/capybara)
+- Favicon from url(https://www.flaticon.com/free-icons/capybara)
 > '<a href="https://www.flaticon.com/free-icons/capybara" title="capybara icons">Capybara icons created by Freepik - Flaticon</a>'
 
-Copied from the Love Running project in style.css
+- Copied from the Love Running project in style.css
 >"/* Asterisk wildcard selector to override default styles added by the browser */"
 >"* { padding: 0; margin: 0; box-sizing: border-box; }"
 
 - The photo's used for the logos in the footer are from [National Geographic](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com.au%2Fpin%2F33636328450640096%2F&psig=AOvVaw3axKheHPHhvQy-WBgatVsR&ust=1720644634948000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCf-sj_mocDFQAAAAAdAAAAABAE), [World Wildlife Foundation](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWorld_Wide_Fund_for_Nature&psig=AOvVaw350eJ6qoyQRRRIy8sC8UW2&ust=1720650180708000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjMjuH_mocDFQAAAAAdAAAAABAE) and [Rainforest Alliance](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rainforest-alliance.org%2Fbusiness%2Fmarketing-sustainability%2Fusing-our-logo-and-seal%2F&psig=AOvVaw2ap1sc9heM3PNhFk0y7JtH&ust=1720645412332000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJiogfL_mocDFQAAAAAdAAAAABAE)
+
+- Image for the main page [Magali Guimarães on Pexels](https://www.pexels.com/photo/capybaras-in-close-up-photography-5919712/)
+
+- Image for the main page (on and over 1240px) [Britannica Website](https://www.britannica.com/animal/capybara-genus)
+
+- Image for the footer [Joel Alencar on Pexels](https://www.pexels.com/photo/a-group-of-capybaras-walking-in-a-field-24032086/)
+
+- Image for footer (on and over 768px) [Alexas_Fotos on Pixabay](https://pixabay.com/photos/water-pigs-capybara-wildlife-mammal-3557854/)
 
 
 ### Content 
