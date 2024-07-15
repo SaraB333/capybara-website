@@ -101,22 +101,27 @@ main h1 {
     background: url(../images/main-page-img.jpg) no-repeat center center/cover;
 }
 
-#fun-fact {
+.fun-fact {
+    display: block;
+    border: 2px solid #37230d;
+    margin: 5px;
+    padding: 5px;
+}
+
+#fun-fact-two {
     display: block;
     border: 2px solid #eee7e7;
     margin: 5px;
     padding: 5px;
 }
 
-#fun-fact>p>a {
+
+.fun-fact>p>a {
     text-decoration: none;
     color: #37230d;
 }
 
-#fun-fact-one {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.fun-fact-one {
     background-color: rgba(191, 252, 252, 0.7);
     color: #37230d;
     width: fit-content;
@@ -125,12 +130,10 @@ main h1 {
     max-width: 70%;
     font-size: 120%;
     letter-spacing: 2px;
+    display: block;
 }
 
-#fun-fact-two {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.fun-fact-two {
     background-color: rgba(0, 92, 103, 0.7);
     color: #FFE4E4;
     width: fit-content;
@@ -195,12 +198,12 @@ footer img {
 
     /* Main Content */
 
-    #fun-fact-two {
-        align-self: flex-end;
+    .fun-fact-two {
         float: right;
     }
 
     /* Footer */
+
     footer img {
         max-width: 150px;
         max-height: 150px;

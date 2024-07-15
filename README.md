@@ -9,67 +9,95 @@ Capybara is a website designed to give factual information to users in a fun for
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, General Information page, Pictures page and the Thoughts page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](assets/images/navigation-bar.png)
 
-- __The landing page image__
+- __The landing Page Image (smaller screens)__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes a photograph with text overlay to allow the user to see some fun facts as soon as they arrive. 
+  - This section introduces the user to Capybara with an eye catching image and inviting color scheme to grab their attention.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page (smaller screens)](assets/images/landing-page-img.png)
 
-- __Club Ethos Section__
+- __The landing Page Image (larger screens)__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - This section has a different image based on screen size, to ensure an optimal view for the user of each image.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Landing Page (larger screens)](assets/images/landing-page-img-lrg.png)
 
-- __Meetup Times section__
+- __Fun Facts Sections__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - The fun facts section will allow the user to see a few fun facts about capybaras, as well as a few links to see which animals they are most closely related to. 
+  - This user will see the value of the information provided in a fun way. This should encourage the user to consider exploring the rest of the site. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Fun Facts](assets/images/fun-facts.png)
 
 - __The Footer__ 
 
-- The footer section includes links to every website used when collecting reliable information for this site. These will open the pages in new tabs to allow easy navigation for the user. 
-- The footer is valuable to the user as it allows them to easily verify the information on the page to be factually correct.
+  - The footer section includes links to every website used when collecting reliable information for this site. These will open the pages in new tabs to allow easy navigation for the user. 
+  - The footer is valuable to the user as it allows them to easily verify the information on the page to be factually correct.
+  - On larger screens the footer is always showing so users can find the sources quickly, without it being in the way on smaller screen sizes.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer (smaller screens)](assets/images/footer-img-readme.png)
 
-- __Gallery__
+  - This section also has a different image based on screen size, to ensure an optimal view for the user of each image.
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+![Footer (larger screens)](assets/images/footer-img-lrg-readme.png)
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+- __General Information Page__
 
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will detail the scientific facts we know about Capybaras. It will feature seperate sections including anatomy, habitat, diet and general information. The user will find this useful as a source of information about Capybaras. 
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+- __Pictures Page__
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - The pictures page will provide the user with images of Capybaras in various settings. 
+  - This section is valuable to the user as they will have the option to look at Capybaras in their natural habitats. 
+
+![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+
+- __Your Thoughts Page__
+
+  - This page will allow the user to leave feedback on the website and share their thoughts on Capybaras in general. The user will be asked to submit their chosen nickname and any feedback they choose. There is an optional field for email address for any users who would like a response to their comments. 
+
+![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 ### Features Left to Implement
 
 - Another feature idea
 
 ## Testing 
+
+- __The Header__
+
+  - I tested the header on mobile screens first. The nav bar initally was displaying over the top of the website title so I used flex properties and position properties to fix it. Nav toggle was added and styling added for mobile phones.
+  - When moving to larger screens the nav toggle was no longer needed and styling was needed to make the navigation clear and useful to the user. 
+  - Different margins were needed for different screen sizes to make the main content visible below the header. I used the responsive displey feature on google inspect to determine the media queries needed. 
+  - I used an opacity for the background of the nav bar and tested this on all screen sizes. I found that the larger screens where the navigation items are all displayed needed less color behind them while still being visible. 
+
+- __Landing Page Images__
+
+  - I went through a lot of different images until I landed on the ones chosen. The images I chose determined the color used for backgrounds using [Color Mind](http://colormind.io/) then [Color Space](https://mycolor.space/?hex=%23C9AAAA&sub=1).
+  - I tested the image for smaller screens first making sure it would fill the entire screen. I had issues with this until I revisited some of the course material on the different units of measurement (urika moment). That solved the blank space at the bottom of the screen, and worked for larger screens at the same time.
+
+- __Fun Facts Sections__
+
+  - First I styled these for mobile screens. I tried different settings with the padding, margins and background colors until I was happy with the outcome.
+  - When moving the second section to the right for larger screens I struggled for a while with which properties to use so I researched and found the float property, which worked for all larger screen sizes without the need of a further media queries.
+  - Tested on my large screen without google inspect running to ensure it looked good as large as I can test, then I used the responsive feature on google inspect and se the percentage to 50 and tested as far as I could with that. 
+
+- __The Footer__
+
+  - First I styled this for mobile phones. As I used the responsive display feature on google inspect I found that it wasn't always at the bottom of the screen when the screen size increased. I thought I could fix it using flex properties, so I practiced flex properties on [Flexbox Froggy](https://flexboxfroggy.com/). I then looked over the course material for positioning and that fixed that problem.
+  - On larger screens I wanted the footer to always show, so I set the position values accordingly and again tested this on google inspect to 50% and as big as it would go on my screen.
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -93,24 +121,29 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+- The site was deployed to GitHub pages initially on 15/07/2024. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+- The live link can be found here - https://sarab333.github.io/capybara-website/ 
 
+- As the website is being built use the git commands 'git add .', 'git commit -m"commit message"' and 'git push' to send the changes to the repository, and after you refresh the live page you can see your changes.
 
 ## Credits 
 
-- Favicon from url(https://www.flaticon.com/free-icons/capybara)
+- Favicon from [Flaticon](https://www.flaticon.com/free-icons/capybara)
 > '<a href="https://www.flaticon.com/free-icons/capybara" title="capybara icons">Capybara icons created by Freepik - Flaticon</a>'
 
 - Copied from the Love Running project in style.css
 >"/* Asterisk wildcard selector to override default styles added by the browser */"
 >"* { padding: 0; margin: 0; box-sizing: border-box; }"
+
+- Idea and implimentation of nav toggle from Love Running project (not copied directly)
+>/* Nav toggle */
+#nav-toggle:checked~nav { display: block; }
+>#nav-toggle { display: none; }
+>.nav-toggle-label { font-size: 200%; margin: 10px 10px; }
 
 - The photo's used for the logos in the footer are from [National Geographic](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com.au%2Fpin%2F33636328450640096%2F&psig=AOvVaw3axKheHPHhvQy-WBgatVsR&ust=1720644634948000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCf-sj_mocDFQAAAAAdAAAAABAE), [World Wildlife Foundation](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWorld_Wide_Fund_for_Nature&psig=AOvVaw350eJ6qoyQRRRIy8sC8UW2&ust=1720650180708000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjMjuH_mocDFQAAAAAdAAAAABAE) and [Rainforest Alliance](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rainforest-alliance.org%2Fbusiness%2Fmarketing-sustainability%2Fusing-our-logo-and-seal%2F&psig=AOvVaw2ap1sc9heM3PNhFk0y7JtH&ust=1720645412332000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJiogfL_mocDFQAAAAAdAAAAABAE)
 
