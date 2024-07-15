@@ -29,8 +29,10 @@ h3 {
 header {
     background-color: #C9AA92;
     width: 100%;
+    /* makes the header always visible */
     position: fixed;
     z-index: 99;
+    /* makes the nav toggle and bar visually pleasing */
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -70,11 +72,13 @@ nav ul {
 }
 
 /* Nav toggle */
+/* displays nav items when bar is clicked */
 #nav-toggle:checked~nav {
     display: block;
 }
 
 #nav-toggle {
+    /* hides checkbox */
     display: none;
 }
 
@@ -89,7 +93,7 @@ main {
     margin-top: 125px;
     background-color: #37230d;
     color: #eee7e7;
-    height: fit-content;
+    /* makes the main content push down the footer */
     min-height: 100vh;
 }
 
@@ -98,10 +102,12 @@ main h1 {
 }
 
 #main-page {
+    /* sets the image so no media queries are necessary */
     background: url(../images/main-page-img.jpg) no-repeat center center/cover;
 }
 
 .fun-fact {
+    /* sets a border around the information in the same color as the writing */
     display: block;
     border: 2px solid #37230d;
     margin: 5px;
@@ -109,6 +115,7 @@ main h1 {
 }
 
 #fun-fact-two {
+    /* sets a border around the information in the same color as the writing */
     display: block;
     border: 2px solid #eee7e7;
     margin: 5px;
@@ -150,11 +157,12 @@ footer {
     color: #eee7e7;
     width: 100%;
     text-align: left;
+    /* to seperate the two images (footer and main) */
     border-top: 2px solid #37230d;
-    position: relative;
 }
 
 footer li {
+    /* removes bullet points from list */
     list-style-type: none;
 }
 
@@ -178,12 +186,14 @@ footer img {
 
     /* Header */
     nav {
+        /* shows nav bar in header */
         display: block;
         position: relative;
         width: fit-content;
     }
 
     nav ul {
+        /* makes nav items apear beside one another */
         display: flex;
         flex-direction: row;
     }
@@ -199,6 +209,7 @@ footer img {
     /* Main Content */
 
     .fun-fact-two {
+        /* moves the second section to the right of the page */
         float: right;
     }
 
@@ -227,6 +238,7 @@ footer img {
 
     /* Footer */
     footer {
+        /* makes the fotter always visible on the screen */
         position: fixed;
         bottom: 0;
         left: 0;
