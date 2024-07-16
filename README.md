@@ -100,18 +100,18 @@ Capybara is a website designed to give factual information to users in a fun for
   - First I styled this for mobile phones. As I used the responsive display feature on google inspect I found that it wasn't always at the bottom of the screen when the screen size increased. I thought I could fix it using flex properties, so I practiced flex properties on [Flexbox Froggy](https://flexboxfroggy.com/). I ended up fixing this with the main images height value. 
   - On larger screens I wanted the footer to always show, so I set the position values accordingly and again tested this on google inspect to 50% and as big as it would go on my screen.
 
-  - __General Information Page__
+- __General Information Page__
 
-    - 
+  - This was very similar to the main page so I had a lot less problems making this fit for all screen sizes and orientations. 
 
+- __Photos Page__
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+  - I styled the photos page and added media queries to ensure the best visability on all screen sizes. 
+  - I had trouble with the youtube display being full width on larger screens, so I had to change the code a bit for ease of use on all screen sizes. I once again used googles inspect mode to try it on screen sizes bigger than my own, including the landscape feature on different mobile devices available. 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- __Your Thoughts Page__
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+  - 
 
 
 ### Validator Testing 
@@ -134,7 +134,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 - The live link can be found here - https://sarab333.github.io/capybara-website/ 
 
-- As the website is being built use the git commands 'git add .', 'git commit -m"commit message"' and 'git push' to send the changes to the repository, and after you refresh the live page you can see your changes.
+- As the website is being built use the git commands 'git add .', 'git commit -m"commit message"' and 'git push' to send the changes to the repository, and after you refresh the live page you can see your changes on the live site.
 
 ## Credits 
 
@@ -151,26 +151,12 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 >#nav-toggle { display: none; }
 >.nav-toggle-label { font-size: 200%; margin: 10px 10px; }
 
-- The photo's used for the logos in the footer are from [National Geographic](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com.au%2Fpin%2F33636328450640096%2F&psig=AOvVaw3axKheHPHhvQy-WBgatVsR&ust=1720644634948000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCf-sj_mocDFQAAAAAdAAAAABAE), [World Wildlife Foundation](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWorld_Wide_Fund_for_Nature&psig=AOvVaw350eJ6qoyQRRRIy8sC8UW2&ust=1720650180708000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjMjuH_mocDFQAAAAAdAAAAABAE) and [Rainforest Alliance](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rainforest-alliance.org%2Fbusiness%2Fmarketing-sustainability%2Fusing-our-logo-and-seal%2F&psig=AOvVaw2ap1sc9heM3PNhFk0y7JtH&ust=1720645412332000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJiogfL_mocDFQAAAAAdAAAAABAE)
-
-- Image for the main page [Magali Guimarães on Pexels](https://www.pexels.com/photo/capybaras-in-close-up-photography-5919712/)
-
-- Image for the main page (on and over 1240px) [Britannica Website](https://www.britannica.com/animal/capybara-genus)
-
-- Image for the footer [Joel Alencar on Pexels](https://www.pexels.com/photo/a-group-of-capybaras-walking-in-a-field-24032086/)
-
-- Image for footer (on and over 768px) [Alexas_Fotos on Pixabay](https://pixabay.com/photos/water-pigs-capybara-wildlife-mammal-3557854/)
-
 - Youtube linking copied from [TechStacker](https://techstacker.com/how-to-responsive-youtube-videos/)
 >(html)<div class="youtube-video-container"><iframe width="560" height="315" src="https://www.youtube.com/watch?v=zTgQ_VnrP_s" frameborder="0"
  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 >(css).youtube-video-container {position: relative; overflow: hidden; width: 100%;} .youtube-video-container::after {
   display: block; content: "Capybara Song"; padding-top: 56.25%;} .youtube-video-container iframe {position: absolute;
   top: 0; left: 0; width: 100%; height: 100%;}
-
-- Images for Pictures page from:[Pexels](https://www.pexels.com/search/capybara/) with credit to Pixaby, Brett Sayles, Lucas Pezeta, Jonatan 
-Bermudez Pascuas, Cassius Cardoso, João Saplak, Magali Guimarães, Rutpratheep Nilpechr, Juan Felipe Ramírez, Messala Ciulla, Renan Rezende, Bernardo 
-Brandolin, Tim Gomes, Joel Alencar, Noe De Angelis and [unsplash](https://unsplash.com/s/photos/capybara) with credit to Jaime Dantas, Klaus Steinberg, Didin Hasbullah and [Pixaby](https://pixabay.com/images/search/capybara/) with credit to Alexas Fotos, herbert2512, falco and paola3131pc.
 
 ### Content 
 
@@ -181,31 +167,20 @@ Brandolin, Tim Gomes, Joel Alencar, Noe De Angelis and [unsplash](https://unspla
 
 >https://www.rainforest-alliance.org/species/capybara/
 
-- The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- Images for Pictures page from:[Pexels](https://www.pexels.com/search/capybara/) with credit to Pixaby, Brett Sayles, Lucas Pezeta, Jonatan 
+Bermudez Pascuas, Cassius Cardoso, João Saplak, Magali Guimarães, Rutpratheep Nilpechr, Juan Felipe Ramírez, Messala Ciulla, Renan Rezende, Bernardo 
+Brandolin, Tim Gomes, Joel Alencar, Noe De Angelis and [unsplash](https://unsplash.com/s/photos/capybara) with credit to Jaime Dantas, Klaus Steinberg, Didin Hasbullah and [Pixaby](https://pixabay.com/images/search/capybara/) with credit to Alexas Fotos, herbert2512, falco and paola3131pc.
 
+- Image for the main page [Magali Guimarães on Pexels](https://www.pexels.com/photo/capybaras-in-close-up-photography-5919712/)
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+- Image for the main page (on and over 1240px) [Britannica Website](https://www.britannica.com/animal/capybara-genus)
 
-## Other General Project Advice
+- Image for the footer [Joel Alencar on Pexels](https://www.pexels.com/photo/a-group-of-capybaras-walking-in-a-field-24032086/)
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
+- Image for footer (on and over 768px) [Alexas_Fotos on Pixabay](https://pixabay.com/photos/water-pigs-capybara-wildlife-mammal-3557854/)
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+- The images used for the logos in the footer are from [National Geographic](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com.au%2Fpin%2F33636328450640096%2F&psig=AOvVaw3axKheHPHhvQy-WBgatVsR&ust=1720644634948000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCf-sj_mocDFQAAAAAdAAAAABAE), [World Wildlife Foundation](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWorld_Wide_Fund_for_Nature&psig=AOvVaw350eJ6qoyQRRRIy8sC8UW2&ust=1720650180708000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjMjuH_mocDFQAAAAAdAAAAABAE) and [Rainforest Alliance](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rainforest-alliance.org%2Fbusiness%2Fmarketing-sustainability%2Fusing-our-logo-and-seal%2F&psig=AOvVaw2ap1sc9heM3PNhFk0y7JtH&ust=1720645412332000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJiogfL_mocDFQAAAAAdAAAAABAE)
