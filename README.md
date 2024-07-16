@@ -52,7 +52,8 @@ Capybara is a website designed to give factual information to users in a fun for
 
 - __General Information Page__
 
-  - This page will detail the scientific facts we know about Capybaras. It will feature seperate sections including anatomy, habitat, diet and general information. The user will find this useful as a source of information about Capybaras. 
+  - This page will detail the scientific facts we know about Capybaras. It will feature seperate sections including general information, anatomy, habitat and diet information.
+  - The user will find this useful as a source of information about Capybaras. 
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
