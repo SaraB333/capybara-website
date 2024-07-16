@@ -61,6 +61,7 @@ Capybara is a website designed to give factual information to users in a fun for
 
   - The pictures page will provide the user with images of Capybaras in various settings. 
   - This section is valuable to the user as they will have the option to look at Capybaras in their natural habitats. 
+  - This page will also feature a youtube video on the bottom of the page with a fun meme/song about Capybaras.
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
@@ -98,6 +99,10 @@ Capybara is a website designed to give factual information to users in a fun for
 
   - First I styled this for mobile phones. As I used the responsive display feature on google inspect I found that it wasn't always at the bottom of the screen when the screen size increased. I thought I could fix it using flex properties, so I practiced flex properties on [Flexbox Froggy](https://flexboxfroggy.com/). I ended up fixing this with the main images height value. 
   - On larger screens I wanted the footer to always show, so I set the position values accordingly and again tested this on google inspect to 50% and as big as it would go on my screen.
+
+  - __General Information Page__
+
+    - 
 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -156,6 +161,16 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 - Image for footer (on and over 768px) [Alexas_Fotos on Pixabay](https://pixabay.com/photos/water-pigs-capybara-wildlife-mammal-3557854/)
 
+- Youtube linking copied from [TechStacker](https://techstacker.com/how-to-responsive-youtube-videos/)
+>(html)<div class="youtube-video-container"><iframe width="560" height="315" src="https://www.youtube.com/watch?v=zTgQ_VnrP_s" frameborder="0"
+ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+>(css).youtube-video-container {position: relative; overflow: hidden; width: 100%;} .youtube-video-container::after {
+  display: block; content: "Capybara Song"; padding-top: 56.25%;} .youtube-video-container iframe {position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;}
+
+- Images for Pictures page from:[Pexels](https://www.pexels.com/search/capybara/) with credit to Pixaby, Brett Sayles, Lucas Pezeta, Jonatan 
+Bermudez Pascuas, Cassius Cardoso, João Saplak, Magali Guimarães, Rutpratheep Nilpechr, Juan Felipe Ramírez, Messala Ciulla, Renan Rezende, Bernardo 
+Brandolin, Tim Gomes, Joel Alencar, Noe De Angelis and [unsplash](https://unsplash.com/s/photos/capybara) with credit to Jaime Dantas, Klaus Steinberg, Didin Hasbullah and [Pixaby](https://pixabay.com/images/search/capybara/) with credit to Alexas Fotos, herbert2512, falco and paola3131pc.
 
 ### Content 
 
