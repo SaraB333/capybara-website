@@ -124,15 +124,6 @@ main {
     padding: 5px;
 }
 
-#fun-fact-two {
-    /* sets a border around the information in the same color as the writing */
-    display: block;
-    border: 2px solid #eee7e7;
-    margin: 5px;
-    padding: 5px;
-}
-
-
 .fun-fact>p>a {
     text-decoration: none;
     color: #37230d;
@@ -158,6 +149,14 @@ main {
     max-width: 70%;
     font-size: 120%;
     letter-spacing: 2px;
+}
+
+#fun-fact-two {
+    /* sets a border around the information in the same color as the writing */
+    display: block;
+    border: 2px solid #eee7e7;
+    margin: 5px;
+    padding: 5px;
 }
 
 /* General Information Page */
@@ -304,6 +303,41 @@ main {
     padding: 5px 5px;
 }
 
+/* Thank You Page (after form submission) */
+
+.thank-you {
+    /* sets a border around the information in the same color as the writing */
+    display: block;
+    border: 2px solid #37230d;
+    margin: 5px;
+    padding: 5px;
+}
+
+.thank-you>p>a {
+    text-decoration: none;
+    color: #37230d;
+}
+
+.thank-you-page {
+    background-color: rgba(191, 252, 252, 0.9);
+    color: #37230d;
+    width: fit-content;
+    margin: 20px 15px;
+    padding: 5px 5px;
+    max-width: 70%;
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+#thank-you-page {
+    width: 100%;
+    margin-top: 0;
+    height: 100vh;
+    background: url(../images/herd-wetland.jpg) no-repeat center center/cover;
+    color: #eee7e7;
+    min-height: 100vh;
+}
+
 /* Footer */
 
 footer {
@@ -430,6 +464,12 @@ footer li {
         /* increased column count for larger screens */
         column-count: 3;
         column-gap: 0;
+    }
+
+    /* Thank You Page */
+
+    #thank-you-page {
+        margin-bottom: 0;
     }
 
     /* Footer */

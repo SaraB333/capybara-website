@@ -1,6 +1,3 @@
-`python3 -m http.server`
-ctrl-c - clears the terminal if frozen
-
 # Capybara
 
 Capybara is a website designed to give factual information to users in a fun format, all about Capybaras. This animal has become wildly popular, so for anyone looking to learn some fun tidbits this site will be a good place to come. There will also be a page where people can share their thoughts about the website or capybara's in general.
@@ -72,9 +69,17 @@ Capybara is a website designed to give factual information to users in a fun for
 ![Thoughts](assets/images/your-thoughts-page.png)
 ![Thoughts Larger Screen](assets/images/your-thoughts-page-lrg.png)
 
+- __Form Submission Page__
+
+  - This is the page the user will be taken to after form submission. It will provide the user with knowledge of why this page was built and where there form has gone.
+
+  ![Form Submission Page](assets/images/thank-you-page.png)
+
 ### Features Left to Implement
 
-- Another feature idea
+- I am hoping in the future to expand the information page with further resources when time allows. 
+- Instead of a video always displaying, a button with a video icon for a pop up that plays the video.
+- An additional button with a music icon that only plays the audio in the video.
 
 ## Testing 
 
@@ -120,12 +125,17 @@ Capybara is a website designed to give factual information to users in a fun for
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fsarab333.github.io%2Fcapybara-website%2F)
+
+![HTML Validation](assets/images/html-validator.png)
+
 - CSS
   - No errors were found when passing through the official [(Jigsaw) W3 validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsarab333.github.io%2Fcapybara-website%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-  - I checked the websites accsessibility using lighhthouse 
+![CSS Validation](assets/images/css-validator.png)
+
+- I checked the websites accsessibility using lighhthouse 
   
-  ![Lighthouse Report](assets/images/lighthouse-report.png)
+![Lighthouse Report](assets/images/lighthouse-report.png)
 
 ### Unfixed Bugs
 
