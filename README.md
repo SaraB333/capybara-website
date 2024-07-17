@@ -69,11 +69,11 @@ Capybara is a website designed to give factual information to users in a fun for
 ![Thoughts](assets/images/your-thoughts-page.png)
 ![Thoughts Larger Screen](assets/images/your-thoughts-page-lrg.png)
 
-- __Form Submission Page__
+- __Thank You Page__
 
   - This is the page the user will be taken to after form submission. It will provide the user with knowledge of why this page was built and where there form has gone.
 
-  ![Form Submission Page](assets/images/thank-you-page.png)
+  ![Thank You Page](assets/images/thank-you-page.png)
 
 ### Features Left to Implement
 
@@ -119,6 +119,11 @@ Capybara is a website designed to give factual information to users in a fun for
 - __Your Thoughts Page__
 
   - I first made this for mobile screens, and styled for larger screens after. I had to change the width, height and margin/padding settings around and add extra breaks in the html for this to look good on multiple screen sizes. I added a Media query for the radio buttons to ensure in landscape and on larger screens they were easily readable. 
+
+- __Thank You Page__
+
+  - I had to add an id to the main so that I could remove the margins for the header and footer as they are not featured on this page.
+  - This was quite easy to style as I copied the styling from the fun facts section on the index page.
 
 
 ### Validator Testing 
@@ -182,8 +187,6 @@ No unfixed bugs to my knowledge.
 >https://www.nationalgeographic.com/animals/mammals/facts/cabybara-facts
 
 >https://www.rainforest-alliance.org/species/capybara/
-
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 
 ### Media
 
