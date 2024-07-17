@@ -55,7 +55,7 @@ Capybara is a website designed to give factual information to users in a fun for
   - This page will detail the scientific facts we know about Capybaras. It will feature seperate sections including general information, anatomy, habitat and diet information.
   - The user will find this useful as a source of information about Capybaras. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![General Information](assets/images/gen-info-page.png)
 
 - __Pictures Page__
 
@@ -63,13 +63,14 @@ Capybara is a website designed to give factual information to users in a fun for
   - This section is valuable to the user as they will have the option to look at Capybaras in their natural habitats. 
   - This page will also feature a youtube video on the bottom of the page with a fun meme/song about Capybaras.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Pictures](assets/images/pictures-page.png)
 
 - __Your Thoughts Page__
 
   - This page will allow the user to leave feedback on the website and share their thoughts on Capybaras in general. The user will be asked to submit their chosen nickname and any feedback they choose. There is an optional field for email address for any users who would like a response to their comments. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Thoughts](assets/images/your-thoughts-page.png)
+![Thoughts Larger Screen](assets/images/your-thoughts-page-lrg.png)
 
 ### Features Left to Implement
 
@@ -111,7 +112,7 @@ Capybara is a website designed to give factual information to users in a fun for
 
 - __Your Thoughts Page__
 
-  - 
+  - I first made this for mobile screens, and styled for larger screens after. I had to change the width, height and margin/padding settings around and add extra breaks in the html for this to look good on multiple screen sizes. I added a Media query for the radio buttons to ensure in landscape and on larger screens they were easily readable. 
 
 
 ### Validator Testing 

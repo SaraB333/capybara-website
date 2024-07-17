@@ -28,6 +28,11 @@ h3 {
     display: none;
 }
 
+.active {
+    text-decoration: underline;
+    font-size: 90%;
+}
+
 /* Header */
 
 header {
@@ -53,6 +58,8 @@ header a {
     font-size: 150%;
 }
 
+/* Nav Bar */
+
 nav {
     background-color: rgba(55, 35, 13, 0.6);
     position: absolute;
@@ -67,16 +74,6 @@ nav ul {
 
 .nav-bar {
     color: #eee7e7;
-}
-
-
-.active {
-    text-decoration: underline;
-    font-size: 90%;
-}
-
-.hidden-heading {
-    display: none;
 }
 
 /* Nav toggle */
@@ -115,6 +112,8 @@ main h1 {
     /* sets the image so no media queries are necessary */
     background: url(../images/main-page-img.jpg) no-repeat center center/cover;
 }
+
+/* Fun Facts Sections */
 
 .fun-fact {
     /* sets a border around the information in the same color as the writing */
@@ -179,7 +178,7 @@ main h1 {
 }
 
 #general-information {
-    background-color: rgba(113, 216, 199, 0.7);
+    background-color: rgba(195, 252, 241, 0.7);
     color: #37230d;
     width: fit-content;
     margin: 20px 15px;
@@ -193,7 +192,7 @@ main h1 {
 }
 
 #anatomy {
-    background-color: rgba(0, 201, 173, 0.7);
+    background-color: rgba(5, 129, 113, 0.7);
     color: #FFE4E4;
     width: fit-content;
     margin: 20px 15px;
@@ -205,7 +204,7 @@ main h1 {
 }
 
 #habitat {
-    background-color: rgba(195, 252, 241, 0.7);
+    background-color: rgba(223, 243, 229, 0.7);
     color: #37230d;
     width: fit-content;
     margin: 20px 15px;
@@ -262,6 +261,50 @@ main h1 {
 
 #photos {
     line-height: 0;
+}
+
+/* Your Thoughts Page */
+
+#your-thoughts {
+    background: url(../images/herd-wetland.jpg) no-repeat center center/cover;
+}
+
+#thoughts-form {
+    margin: 50px 25px;
+    width: 80vw;
+    max-width: 750px;
+    height: fit-content;
+    padding: 15px 15px;
+    background-color: rgba(55, 35, 13, 0.7);
+}
+
+.text-box {
+    background-color: rgba(176, 246, 255, 0.2);
+    color: #37230d;
+    font-size: 120%;
+    letter-spacing: 1px;
+    border: 1px solid #FFE4E4;
+    border-radius: 2px;
+    width: 100%;
+    max-width: 300px;
+    min-height: 30px;
+}
+
+.text-box-big {
+    background-color: rgba(176, 246, 255, 0.2);
+    color: #37230d;
+    font-size: 120%;
+    letter-spacing: 1px;
+    border: 1px solid #FFE4E4;
+    border-radius: 2px;
+    width: 100%;
+    min-height: 30px;
+}
+
+.submit-button {
+    background-color: #dd660a;
+    color: #FFE4E4;
+    padding: 5px 5px;
 }
 
 /* Footer */
@@ -344,6 +387,13 @@ footer img {
         /* increased column count for larger screens */
         column-count: 2;
         column-gap: 0;
+    }
+
+    /* Your Thoughts Page */
+
+    .radio-buttons {
+        display: flex;
+        justify-content: space-around;
     }
 
     /* Footer */

@@ -42,7 +42,42 @@
     </header>
 
     <!-- Main Content -->
-    <main>Main</main>
+    <main id="your-thoughts">
+        <section>
+            <form method="post" action="https://formdump.codeinstitute.net" id="thoughts-form">
+                <h1>Capybaras!</h1>
+                <br>
+                <label for="nickname">Name / Nickname (required)</label>
+                <br>
+                <input type="text" name="name" id="nickname" class="text-box" required>
+                <br><br>
+                <label for="email-address">Email Address (optional)</label>
+                <br>
+                <input type="text" name="email-address" id="email-address" class="text-box">
+                <br><br>
+                <label for="you-tell-us">Tell us what you think about Capybaras, or this website! (optional)</label>
+                <br>
+                <input type="text" name="text" id="you-tell-us" class="text-box-big">
+                <br><br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="like">I Like Capybaras!</label>
+                        <input type="radio" name="capybara-radio" id="like" required checked>
+                    </div>
+                    <div>
+                        <label for="no-opinion">I Don't Mind Either Way.</label>
+                        <input type="radio" name="capybara-radio" id="no-opinion" required>
+                    </div>
+                    <div>
+                        <label for="no-like">I Dislike Capybaras!</label>
+                        <input type="radio" name="capybara-radio" id="no-like" required>
+                    </div>
+                </div>
+                <br>
+                <button type="submit" class="submit-button">Submit Form</button>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
