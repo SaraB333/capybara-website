@@ -100,6 +100,7 @@ Capybara is a website designed to give factual information to users in a fun for
 
   - First I styled this for mobile phones. As I used the responsive display feature on google inspect I found that it wasn't always at the bottom of the screen when the screen size increased. I thought I could fix it using flex properties, so I practiced flex properties on [Flexbox Froggy](https://flexboxfroggy.com/). I ended up fixing this with the main images height value. 
   - On larger screens I wanted the footer to always show, so I set the position values accordingly and again tested this on google inspect to 50% and as big as it would go on my screen.
+  - I found that on a laptop screen the footer was too big and changed it so it looks better.
 
 - __General Information Page__
 
