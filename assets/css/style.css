@@ -19,6 +19,11 @@ body {
 }
 
 h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h1,
 h2,
 h3 {
     font-family: Quicksand, sans-serif;
@@ -104,10 +109,6 @@ main {
     min-height: 100vh;
 }
 
-main h1 {
-    text-transform: uppercase;
-}
-
 #main-page {
     /* sets the image so no media queries are necessary */
     background: url(../images/main-page-img.jpg) no-repeat center center/cover;
@@ -160,10 +161,6 @@ main h1 {
 }
 
 /* General Information Page */
-
-#gen-info-page {
-    background-image: none;
-}
 
 .dark-border {
     border: 2px solid #37230d;
@@ -316,6 +313,11 @@ footer {
     text-align: left;
     /* to seperate the two images (footer and main) */
     border-top: 2px solid #37230d;
+}
+
+footer h2 {
+    text-transform: none;
+    font-size: 200%;
 }
 
 footer li {
