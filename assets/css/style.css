@@ -326,7 +326,7 @@ main {
     padding: 5px 5px;
     max-width: 70%;
     font-size: 120%;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 
 #thank-you-page {
@@ -335,7 +335,6 @@ main {
     height: 100vh;
     background: url(../images/herd-wetland.jpg) no-repeat center center/cover;
     color: #eee7e7;
-    min-height: 100vh;
 }
 
 /* Footer */

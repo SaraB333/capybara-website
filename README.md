@@ -73,7 +73,7 @@ Capybara is a website designed to give factual information to users in a fun for
 
   - This is the page the user will be taken to after form submission. It will provide the user with knowledge of why this page was built and where there form has gone.
 
-  ![Thank You Page](assets/images/thank-you-page.png)
+![Thank You Page](assets/images/thank-you-page.png)
 
 ### Features Left to Implement
 
