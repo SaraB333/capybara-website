@@ -311,6 +311,7 @@ footer {
     color: #eee7e7;
     width: 100%;
     text-align: left;
+    max-height: 150px;
     /* to seperate the two images (footer and main) */
     border-top: 2px solid #37230d;
 }
@@ -325,9 +326,9 @@ footer li {
     list-style-type: none;
 }
 
-footer img {
-    max-width: 100px;
-    max-height: 100px;
+#footer-imgs img {
+    max-width: 60px;
+    max-height: 75px;
 }
 
 #footer-imgs {
@@ -416,7 +417,7 @@ footer img {
     /* Main Content */
 
     main {
-        margin-bottom: 197px;
+        margin-bottom: 122px;
     }
 
     #main-page {
